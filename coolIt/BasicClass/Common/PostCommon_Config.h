@@ -11,6 +11,7 @@
 
 #define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define ViewWidth  [[UIScreen mainScreen] bounds].size.width
+#define APP_DELEGATE ((AppDelegate *)[UIApplication sharedApplication].delegate)
 #define StatusBarHeight                     (IS_IPHONE_X_orMore ? 44.f : 20.f)
 #define LR_StatusBarAndNavigationBarHeight  (StatusBarHeight +  44.f)
 #define ViewHeight [[UIScreen mainScreen] bounds].size.height - LR_TabbarSafeBottomMargin
