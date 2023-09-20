@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
